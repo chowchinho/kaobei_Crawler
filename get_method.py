@@ -28,7 +28,7 @@ def get_downurl(page, te_num, title, srcs, end_chapter):
 def get_downurl_sep(page, te_num, title, srcs, end_chapter):
     thread_list = []
     # 检查image目录是否存在,不存在则创建
-    title = title+'/'+str(page)
+    title = 'Output'+'/'+title+'/'+title+' - '+str(page)
     if not os.path.exists(title):
         os.makedirs(title)
 
