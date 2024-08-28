@@ -1,3 +1,5 @@
+url = input("Please enter the comic URL (e.g., https://www.mangacopy.com/comic/20shijishaonian): ")
+
 from manga_downloader import initialize_driver, login, get_comic_info, start_threads
 from get_method import get_valid
 
